@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.materialForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  width: 100vw;
+  height: 100vh;
+background-color: skyblue;
+}
+
+.materialForm > Form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 32px;
+  min-width: 350px;
+  border-radius: 8px;
+  margin:32px;
+}
